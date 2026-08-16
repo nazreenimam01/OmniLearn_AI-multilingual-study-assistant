@@ -128,3 +128,45 @@ OmniLearn/
 ├── tests/
 ├── .gitignore
 └── README.md
+
+##Future Enhancements
+
+### 1. Cloud Deployment
+
+Deploy OmniLearn on a cloud platform so it can be accessed through a public web link.
+
+### 2. Gemini API Integration
+
+Add a cloud-based LLM option for production deployment.
+
+### 3. User Authentication
+
+Introduce secure login and individual user accounts.
+
+### 4. Personal Learning Dashboard
+
+Track quiz scores, flashcard progress, and learning activity.
+
+### 5. Multiple Document Support
+
+Allow users to upload and work with multiple documents at the same time.
+
+### 6. Improved Vector Search
+
+Integrate a dedicated vector database for faster and more scalable retrieval.
+
+### 7. Learning Analytics
+
+Analyze user performance and identify topics that require additional revision.
+
+### 8. Enhanced Voice Learning
+
+Support more natural, continuous voice-based conversations.
+
+### 9.Cloud Document Storage
+
+Securely store user documents using cloud storage.
+
+### 10. Personalized Learning
+
+Recommend quizzes, flashcards, and study material based on individual performance
