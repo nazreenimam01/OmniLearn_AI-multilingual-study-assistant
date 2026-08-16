@@ -34,7 +34,7 @@ and deeper understanding.
     )
 
     # Prevent extremely large documents from overwhelming the model
-    text = text[:12000]
+    text = text[:9000]
 
     prompt = f"""
 Create a multiple-choice quiz from the study material below.
