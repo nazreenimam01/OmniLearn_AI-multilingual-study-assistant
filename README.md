@@ -135,7 +135,7 @@ OmniLearn/
 ## Future Enhancements
 
 - **Cloud Deployment** – Deploy OmniLearn on a cloud platform and make it accessible through a public web link.
-- **Gemini API Integration** – Add a cloud-based LLM option for production deployment.
+- **Gemini API Integration** – Add Gemini as an alternative cloud-based LLM for improved scalability and deployment.
 - **User Authentication** – Add secure registration, login, and individual user accounts.
 - **Personal Learning Dashboard** – Track quiz scores, flashcard progress, and overall learning activity.
 - **Multiple Document Support** – Allow users to upload and work with multiple study documents simultaneously.
