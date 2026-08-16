@@ -129,6 +129,8 @@ OmniLearn/
 ├── .gitignore
 └── README.md
 
+---
+
 ##Future Enhancements
 
 ### 1. Cloud Deployment
