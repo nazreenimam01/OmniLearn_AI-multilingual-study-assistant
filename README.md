@@ -99,34 +99,6 @@ The same processed study material can also be used for features such as:
 
 ---
 
-## System Workflow
-
-```mermaid
-flowchart TD
-
-    A[User Uploads Study Document] --> B[Frontend]
-    B --> C[Backend API]
-
-    C --> D[Document Processing]
-    D --> E[Text Extraction]
-    E --> F[Text Chunking]
-
-    F --> G[Generate Embeddings]
-    G --> H[Store Embeddings + Text]
-
-    H --> I[(Knowledge Base)]
-
-    J[User Question] --> K[Generate Query Embedding]
-    K --> L[Retrieve Relevant Chunks]
-    I --> L
-
-    L --> M[Relevant Context]
-    M --> N[LLM]
-    N --> O[Generated Answer]
-    O --> B
-    B --> P[Display Response]
-
-
 ## Project Structure
 
 ```text
