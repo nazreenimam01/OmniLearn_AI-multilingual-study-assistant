@@ -33,23 +33,14 @@ function Workspace({ onClose }) {
 
   const [flashcards, setFlashcards] = useState(null);
 
-const [flashcardLevel, setFlashcardLevel] =
-  useState("simple");
+  const [flashcardLevel, setFlashcardLevel] = useState("simple");
+  const [numFlashcards, setNumFlashcards] = useState(10);
+  const [currentFlashcard, setCurrentFlashcard] = useState(0);
+  const [showFlashcardAnswer, setShowFlashcardAnswer] = useState(false);
 
-const [numFlashcards, setNumFlashcards] =
-  useState(10);
+  const [knownFlashcards, setKnownFlashcards] = useState([]);
 
-const [currentFlashcard, setCurrentFlashcard] =
-  useState(0);
-
-const [showFlashcardAnswer, setShowFlashcardAnswer] =
-  useState(false);
-
-const [knownFlashcards, setKnownFlashcards] =
-  useState([]);
-
-const [reviewFlashcards, setReviewFlashcards] =
-  useState([]);
+  const [reviewFlashcards, setReviewFlashcards] = useState([]);
 
   const [question, setQuestion] = useState("");
   const [language, setLanguage] = useState("English");
